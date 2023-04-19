@@ -1,0 +1,20 @@
+/*
+Antes de comersarmos a criar um arquivo CSS que de fato estilize a nossa página HTML primeiro usamos um "reset" que funciona para limpar as formatações CSS padrões dos browsers.
+*/
+/*
+ Usamos o " * " como seletor quando precisamos aplicar nossa estilização em todos as tags da página.
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
